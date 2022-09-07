@@ -1,0 +1,256 @@
+.main{
+    width: 100%;
+    
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(221, 253, 253);
+    border: 1px solid lightgray;
+    float: left;
+}
+.one{
+    width: 15%;
+    float: left;
+    
+}
+img{
+    height: 70px;
+    width: 200px;
+}
+.two{
+    width: 30%;
+    float: left;
+    
+}
+.two select{
+    margin-top: 20px;
+    margin-left: 100px;
+     padding-top: 10px;
+    border-radius: 10px;
+    padding-left: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-right: 30px;
+}
+.third{
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+}
+.third input{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    transition: transform 1s, height 1s, width 1s, font-size 1s;
+    border: none;
+}
+.third button:hover{
+    transform: scale(1.1);
+}
+.forth{
+    width: 35%;
+    float: left;
+    
+}
+.forth ul{
+    list-style-type: none;
+    margin-top: 30px;
+}
+.forth ul li{
+    float: left;
+}
+.forth ul li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 25px;
+    
+}
+.nav{
+    width: 100%;
+    /* float: left; */
+}
+.nav nav{
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    transition: transform 1s;
+}
+.nav nav:hover{
+    color: white;
+    background-color: gray;
+    transform: scale(1.1);  
+    height: 30px;
+    /* width: 120px; */
+    text-align: center;
+    padding:5px 0px 10px 0px;
+    box-sizing: border-box;
+    
+}
+.nav button{
+    /* float: left; */
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color: rgb(245, 199, 199);
+}
+.banner{
+    width: 100%;
+    float: left;
+    
+}
+.banner img{
+    width: 100%;
+    height: 460px;
+    
+}
+h1{
+    text-align: center;  
+}
+.gallary{
+    float: left;
+    width: 100%;   
+    background-color: rgb(247, 231, 213);
+    height: 650PX;
+}
+.gallary .gift{
+    float: left;
+    /* background-color: bisque; */
+    margin-left: 20px;
+ 
+}
+.gift img{
+    height: 250px;
+    width: 250px;
+    margin-left: 25px;
+    margin-right: 25px;  
+    margin-top: 25px;
+    float: left;
+    transition: transform 1s;
+}
+.gallary img:hover{
+    transform: scale(.9);
+}
+
+h3{
+    margin-left: 20px;
+    text-align: center;
+}
+.sday{
+    width: 100%;
+    /* margin-left: 70px; */
+    /* background-color: rgb(206, 166, 106); */
+    float: left;   
+
+}
+.sday .same{
+    float: left;
+    background-color: rgb(124, 158, 153);
+    margin-left: 70px;
+    /* margin-top: 100PX; */
+    
+}
+.same img{
+    width: 300px;
+    height: 300px;
+    margin-left: 0px;
+    margin-right: 25px;
+    margin-top: 25px;
+    transition: transform 1s;
+}
+.same img:hover{
+    transform: translateY(25px);
+}
+.sday h1{
+    text-align: left;
+    margin-left: 80px;
+    
+    
+}
+.rpapa{
+    width: 100%;
+    float: left;
+    margin-top: 50px; 
+    background-color: rgb(228, 235, 241);  
+}
+.rpapa .papa{
+    float: left;
+    background-color: rgb(202, 197, 172);
+    margin-left: 70px;
+    
+}
+.papa img{
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    transition: transform 4s, height 1s, width 1s;
+}
+.papa img:hover{
+    transform: rotate(360deg);
+    /* width: 305px;
+    height: 305px; */
+}
+.rpapa h1{
+    text-align: center;
+    margin-left: 80px;  
+}
+.rpapa h3{
+    /* text-align: center; */
+    margin-left: 80px;
+    margin-left: 25px;
+}
+
+.mgift{
+    float: left;
+    width: 100%;   
+    background-color: rgb(175, 178, 179);
+    height: 420pxPX;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.mgift .mg{
+    float: left;
+    background-color: white;
+    margin-left: 25px;
+    transition: transform 1s;
+}
+.mgift .mg:hover{
+    transform: scale(1.1);
+}
+.mg img{
+    height: 250px;
+    width: 250px;
+    margin-left: 25px;
+    margin-right: 25px;  
+    margin-top: 25px;
+    float: left;
+    transition: transform 1s;
+}
+.mg img:hover{
+    transform: skewY(-20deg);
+}
+h3{
+    margin-left: 20px;
+    text-align: center;
+}
+.footer{
+    margin-top: 100px;
+    float: left;
+    width: 100%;
+    height: 220px;
+    color: white;
+    background-color: rgb(172, 130, 130);
+    padding-top: 120px;
+}
+
